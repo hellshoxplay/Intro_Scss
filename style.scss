@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Party Business";
+  src: url(partybusiness.ttf);
+}
+
+
+@font-face {
+  font-family: "Aniron Reg";
+  src: url(anirm___.ttf);
+}
+
+
+@font-face {
+  font-family: "Tengwar reg";
+  src: url(tngan.ttf);
+}
+
+
+@font-face {
+  font-family: "Aniron bold";
+  src: url(anirb___.ttf);
+}
+.navbar-expand {
+  height: 20vh;
+  width: 1100px;
+}
+
+#navbarSupportedContent {
+  font-family: "Aniron bold";
+  font-size: 13px;
+  padding-right: 0px;
+}
+
+.navbar {
+  background-color: #fe661d;
+}
+
+.nav-item.active {
+  text-decoration: underline;
+  text-decoration-style: solid 3px;
+  text-decoration-color: white;
+}
+
+a.nav-link {
+  color: white;
+  border-left: 2px solid white;
+}
+
+.navbar-toggler {
+  background-color: #fe661d;
+}
+
+.navbar-brand {
+  font-family: "Aniron bold";
+  font-size: 15px;
+  color: white;
+  background: #fe661d;
+}
+
+/* on défini la shape d'un anneau */
+
+@mixin ring($rayon,$color){
+  $color2:ligthen($color,10%);
+  width :#{$rayon}px ;
+  height : #{$rayon}px;
+  border:0.05*$rayon+5px solid $color;
+  box-shadow: inset 2px 2px darken($color,20%);
+  border-radius:50%;
+}
+
+/* on défini la mise en page des sections */
+
+section{
+  margin-top : 20px;
+  margin-bottom : 10vh;
+  padding : 0;
+}
+
+/* on fait la première ligne */
+
+.ringalone{
+  @include ring(75,#fe661d);
+  }
+  
+/* on fait la deuxième ligne */
+
+#bigRing{
+  @include ring(150,yellow);
+  margin-right : 40px;
+}
+
+/* on fait la dernière ligne */
+
+  @for $i from 1 through 6 {
+  .ring-#{$i} {
+    border:7px solid grey;
+    @include ring(15*$i+75,grey);
+    transform : translate(-$i*30px);
+    box-shadow : inset 2px 2px darken(grey,20%);
+  };
+}
+
+
+
+/* On design le footer */
+
+.footer {
+  background-color: #fe661d;
+  font-family: "Aniron bold";
+  font-size: 13px;
+  padding-right: 0px;
+  height : 10vh;
+  a {
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+}

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Party Business";
+  src: url(partybusiness.ttf);
+}
+@font-face {
+  font-family: "Aniron Reg";
+  src: url(anirm___.ttf);
+}
+@font-face {
+  font-family: "Tengwar reg";
+  src: url(tngan.ttf);
+}
+@font-face {
+  font-family: "Aniron bold";
+  src: url(anirb___.ttf);
+}
+.navbar-expand {
+  height: 20vh;
+  width: 1100px;
+}
+
+#navbarSupportedContent {
+  font-family: "Aniron bold";
+  font-size: 13px;
+  padding-right: 0px;
+}
+
+.navbar {
+  background-color: #fe661d;
+}
+
+.nav-item.active {
+  text-decoration: underline;
+  -webkit-text-decoration-style: solid 3px;
+          text-decoration-style: solid 3px;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+a.nav-link {
+  color: white;
+  border-left: 2px solid white;
+}
+
+.navbar-toggler {
+  background-color: #fe661d;
+}
+
+.navbar-brand {
+  font-family: "Aniron bold";
+  font-size: 15px;
+  color: white;
+  background: #fe661d;
+}
+
+/* on défini la shape d'un anneau */
+/* on défini la mise en page des sections */
+section {
+  margin-top: 20px;
+  margin-bottom: 10vh;
+  padding: 0;
+}
+
+/* on fait la première ligne */
+.ringalone {
+  width: 75px;
+  height: 75px;
+  border: 8.75px solid #fe661d;
+  box-shadow: inset 2px 2px #b43b01;
+  border-radius: 50%;
+}
+
+/* on fait la deuxième ligne */
+#bigRing {
+  width: 150px;
+  height: 150px;
+  border: 12.5px solid yellow;
+  box-shadow: inset 2px 2px #999900;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+
+/* on fait la dernière ligne */
+.ring-1 {
+  border: 7px solid grey;
+  width: 90px;
+  height: 90px;
+  border: 9.5px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-30px);
+      -ms-transform: translate(-30px);
+          transform: translate(-30px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+.ring-2 {
+  border: 7px solid grey;
+  width: 105px;
+  height: 105px;
+  border: 10.25px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-60px);
+      -ms-transform: translate(-60px);
+          transform: translate(-60px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+.ring-3 {
+  border: 7px solid grey;
+  width: 120px;
+  height: 120px;
+  border: 11px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-90px);
+      -ms-transform: translate(-90px);
+          transform: translate(-90px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+.ring-4 {
+  border: 7px solid grey;
+  width: 135px;
+  height: 135px;
+  border: 11.75px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-120px);
+      -ms-transform: translate(-120px);
+          transform: translate(-120px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+.ring-5 {
+  border: 7px solid grey;
+  width: 150px;
+  height: 150px;
+  border: 12.5px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-150px);
+      -ms-transform: translate(-150px);
+          transform: translate(-150px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+.ring-6 {
+  border: 7px solid grey;
+  width: 165px;
+  height: 165px;
+  border: 13.25px solid grey;
+  box-shadow: inset 2px 2px #4d4d4d;
+  border-radius: 50%;
+  -webkit-transform: translate(-180px);
+      -ms-transform: translate(-180px);
+          transform: translate(-180px);
+  box-shadow: inset 2px 2px #4d4d4d;
+}
+
+/* On design le footer */
+.footer {
+  background-color: #fe661d;
+  font-family: "Aniron bold";
+  font-size: 13px;
+  padding-right: 0px;
+  height: 10vh;
+}
+.footer a {
+  color: white;
+}
+.footer ul {
+  list-style: none;
+}
