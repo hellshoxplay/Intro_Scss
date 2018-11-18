@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Party Business";
-  src: url(partybusiness.ttf);
+  src: url(partybusiness.ttf) format("ttf");
 }
 
 
@@ -19,6 +19,15 @@
 @font-face {
   font-family: "Aniron bold";
   src: url(anirb___.ttf);
+}
+
+h2{
+  font-family : "Aniron Reg";
+  font-size :22px;
+}
+
+p{
+  font-family : "Party Business";
 }
 .navbar-expand {
   height: 20vh;
@@ -80,6 +89,8 @@ section{
 
 .ringalone{
   @include ring(75,#fe661d);
+  margin-left : 1vw;
+  margin-right : 1vw;
   }
   
 /* on fait la deuxième ligne */
